@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+
+:root {
+    --bg-topbar: #6d7ff1;
+    --bg-textarea: #00111c;
+    --bg-sidebar: #0d1a42;
+    --bg-filename: #4153cb;
+    --bg-preview: #000000be;
+    --text-primary: #ffffff;
+    --text-secondary: #f1f1f1;
+}
+
+/* But the color is not applied when they are called in other components
+ */
+main{
+    background-color: var(--bg-textarea);
+}
+.sidebar {
+    background-color: var(--bg-sidebar);
+    
+}
+
+.preview {
+    background-color: var(--bg-preview);
+    
+}
+.filename {
+    background-color: var(--bg-filename);
+}
+.topbar {
+    background-color: var(--bg-topbar);
+}
+.text-primary {
+    color: var(--text-primary);
+}
+
+.auth{
+    background-color: #0d1a42;
+}
+
+.authOptions{
+    background-color: var(--bg-topbar);
+}
+
+.quote{
+    background-color: var(--bg-topbar);
+    color:var(--color-zinc-100)
+}
+
+/* Change toolbar background */
+.ce-toolbar__content {
+  background-color: #f5f5ff; /* soft purple background */
+  border-radius: 6px;
+}
+
+/* Change toolbar button icons */
+.ce-toolbox__button svg {
+  fill: #4f46e5 !important; /* change icon color (e.g., indigo) */
+}
+
+/* Change button hover effect */
+.ce-toolbox__button:hover svg {
+  fill: #1e40af !important; /* darker indigo on hover */
+}
+
+/* Change toolbar action button styles */
+.ce-toolbar__plus,
+.ce-toolbar__settings-btn {
+  background-color: #e0e7ff !important;
+  color: #1e3a8a !important;
+  border-radius: 6px;
+}
+
+::selection {
+  background: #021027; /* blue-500 */
+  color: #000000;      /* black text */
+}

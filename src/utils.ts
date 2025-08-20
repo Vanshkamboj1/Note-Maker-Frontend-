@@ -1,0 +1,1 @@
+export const BACKEND_URL="https://notemakerbackend-production.up.railway.app/api/v1"
