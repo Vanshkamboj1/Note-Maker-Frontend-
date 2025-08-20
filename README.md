@@ -63,5 +63,5 @@ A clean and efficient note-taking app with features like CRUD operations, trash 
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/SATYAPRAKASH1419/Note-Maker.git
+git clone https://github.com/Vanshkamboj1/Note-Maker-Frontend-
 cd noteapp
